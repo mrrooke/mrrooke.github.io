@@ -146,6 +146,7 @@ section.has-light-background h6 {
 }
 
 .reveal .questions p {
+  font-weight: bold;
   font-size: 0.8em;
   margin-bottom: 0px;
   margin-top: 10px;
