@@ -145,6 +145,33 @@ section.has-light-background h6 {
   grid-template-areas: ". .";
 }
 
+.three-by-three {
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  border: #fff;
+  border-width: 1px;
+}
+
+.three-by-three .item {
+  border: 1px solid #dfdfdf;
+}
+
+.three-by-three div {
+  content: "";
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+
 .reveal .questions p {
   font-weight: bold;
   font-size: 0.8em;
@@ -279,7 +306,7 @@ section.has-light-background h6 {
 .reveal table td {
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
-  border-bottom: 1px solid;
+  border: 1px solid;
 }
 
 .reveal table th[align="center"],
